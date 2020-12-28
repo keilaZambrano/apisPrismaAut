@@ -1,0 +1,11 @@
+image: maven:3.6.1-jdk-12
+
+build:
+  tags:
+   - java
+  script: "mvn install -B"
+
+test:
+  tags:
+   - java
+  script: "mvn test"

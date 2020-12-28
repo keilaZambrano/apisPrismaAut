@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<header>
+    <baseurl>https://api.trello.com/1</baseurl>
+    <key>87054201ce4a24fa0c65a0bdecfa4c44</key>
+    <token>5eced041ad0db05b6c1f959e335caa49faa3acb3ec1e3fadafc6d34eb9e1c3dc</token>
+    <username>qaschool3</username>
+    <url>https://api-dev.prismamediosdepago.com/v3/eresumen/statements_details</url>>
+    <authorizationeresumen>Bearer uBA9fGsbXlG387TtGfXjwk4Say9Q</authorizationeresumen>
+    <accountnumber>465049886</accountnumber>
+    <closedatesince>2020-02-02</closedatesince>
+    <closedateuntil>2020-11-20</closedateuntil>
+    <platform>CRE-PPL</platform>
+    <bankcode>315</bankcode>
+
+</header>
