@@ -69,4 +69,5 @@ public class ResponseEresumen {
 		return statementType;
 	}
 
+
 }

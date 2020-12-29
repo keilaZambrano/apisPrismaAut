@@ -50,33 +50,28 @@ public class ConfigHeader {
         return readXml().getElementsByTagName("contenttype").item(0).getTextContent();
     }
 
-    public static String getAccounNumber(){
+    public static String getAccounNumber() {
         return readXml().getElementsByTagName("accountnumber").item(0).getTextContent();
     }
 
-    public static String getCloseDateSince(){
+    public static String getCloseDateSince() {
         return readXml().getElementsByTagName("closedatesince").item(0).getTextContent();
     }
 
-    public static String getCloseDateUntil(){
+    public static String getCloseDateUntil() {
         return readXml().getElementsByTagName("closedateuntil").item(0).getTextContent();
     }
 
-    public static String getPlatform(){
+    public static String getPlatform() {
         return readXml().getElementsByTagName("platform").item(0).getTextContent();
     }
 
-    public static String getBankcode(){
+    public static String getBankcode() {
         return readXml().getElementsByTagName("bankcode").item(0).getTextContent();
     }
 
-    public static String getUrl(){
+    public static String getUrl() {
         return readXml().getElementsByTagName("url").item(0).getTextContent();
     }
-
-    public static String getAuthorization() {
-        return readXml().getElementsByTagName("authorizationeresumen").item(0).getTextContent();
-    }
-
 
 }

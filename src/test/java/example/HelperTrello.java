@@ -22,14 +22,13 @@ public class HelperTrello extends HelperBase {
     }
 
     public static ResponseEresumen[] getEresumen() {
+
         return given(getParamsEresumen()).
                 get().
                 then().
                 log().all().
                 statusCode(HttpStatus.SC_OK).
                 extract().response().as(ResponseEresumen[].class);
-
-
     }
 
 
