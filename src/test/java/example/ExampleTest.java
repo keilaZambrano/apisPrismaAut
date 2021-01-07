@@ -4,6 +4,7 @@ import api.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pojos.PojoSample;
+import pojos.ResponseEresumen;
 
 public class ExampleTest extends BaseTest {
 
@@ -13,9 +14,10 @@ public class ExampleTest extends BaseTest {
     }
 
     @Test
+    
     public void getEresumen() {
 
-        HelperTrello.getEresumen().getClass();
+        Assert.assertEquals(ResponseEresumen[].class, HelperTrello.getEresumen().getClass(), "prueba");
     }
 
 }

@@ -44,6 +44,7 @@ public class HelperBase {
 
     //get Token
     public static String getToken() {
+
         Response response = given(getParamsAccesToken()).
                 get().
                 then().
